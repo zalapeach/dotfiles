@@ -129,10 +129,10 @@ set linebreak
 
 " Directories *****************************************************************
 " Setup backup location and enable
-set backupdir=~/.vim/tmp/backup
+set backupdir=~/.dotfiles/tmp/backup
 
 " Set Swap directory
-set directory=~/.vim/tmp/swap
+set directory=~/.dotfiles/tmp/swap
 
 " File Stuff ******************************************************************
 filetype plugin indent on
