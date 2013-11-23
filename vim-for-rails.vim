@@ -225,3 +225,5 @@ set t_Co=256
 autocmd BufWritePre * :%s/\s\+$//e
 
 set relativenumber
+
+colorscheme mustang
