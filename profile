@@ -16,8 +16,8 @@ export HISTCONTROL=ignoreboth
 
 # GIT ------------------------------------
 # show current branch on shell
-source ~/.gh-dotfiles/bash_git
-source ~/.gh-dotfiles/task_completion.sh
+source ~/.dotfiles/bash_git
+source ~/.dotfiles/task_completion.sh
 
 BRANCH_COLOR="\[\033[42;30m\]"
 ARROW_BRANCH="\[\033[49;32m\]⮀"
@@ -35,7 +35,7 @@ bind "\e[B":history-search-forward
 
 alias n="nautilus . &"
 
-export PATH=$PATH:~/.gh-dotfiles/bin
+export PATH=$PATH:~/.dotfiles/bin
 
 # set editor for gem open
 export EDITOR=vim
@@ -45,3 +45,5 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 # Ruby aliases
 alias b="bundle exec"
+
+alias v="gvim"
