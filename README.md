@@ -34,7 +34,7 @@ Enjoy!
 
 ### Terminal
 
-![Terminal](http://s21.postimg.org/6m4xs27g7/Screen_Shot_2013_11_23_at_2_25_46_PM.png)
+![Terminal](http://s2.postimg.org/5w5kenm6x/Screen_Shot_2013_11_23_at_2_54_43_PM.png)
 
 ## LICENSE
 
