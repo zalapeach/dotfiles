@@ -7,8 +7,8 @@
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "bundle/eruby"]
-	path = bundle/eruby
+[submodule "bundle/eruby.vim"]
+	path = bundle/eruby.vim
 	url = git://github.com/vim-scripts/eruby.vim.git
 [submodule "bundle/vim-haml"]
 	path = bundle/vim-haml
