@@ -58,6 +58,7 @@ Bundle "kien/ctrlp.vim.git"
 Bundle "jiangmiao/auto-pairs.git"
 Bundle "tpope/vim-endwise.git"
 Bundle "gmarik/vundle"
+Bundle "flazz/vim-colorschemes.git"
 
 filetype plugin indent on
 
