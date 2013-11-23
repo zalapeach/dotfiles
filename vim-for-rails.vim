@@ -1,7 +1,6 @@
 " -----------------------------------------------------------------------------
 " |                            VIM Settings                                   |
 " |                   (see gvimrc for gui vim settings)                       |
-"
 " |                                                                           |
 " | Some highlights:                                                          |
 " |   jj = <esc>  Very useful for keeping your hands on the home row          |
@@ -36,7 +35,31 @@ let mapleader = ","
 imap jj <Esc> " Professor VIM says '87% of users prefer jj over esc', jj abrams disagrees
 
 " load plugins on bundle folder ********************************************************
-call pathogen#infect()
+filetype off                  " required!
+set rtp+=~/.dotfiles/bundle/vundle/
+call vundle#rc("~/.dotfiles/bundle")
+
+Bundle "vim-scripts/The-NERD-Commenter.git"
+Bundle "vim-scripts/The-NERD-tree.git"
+Bundle "tpope/vim-rails.git"
+Bundle "vim-scripts/eruby.vim.git"
+Bundle "tpope/vim-haml.git"
+Bundle "vim-ruby/vim-ruby.git"
+Bundle "vim-scripts/Markdown.git"
+Bundle "pangloss/vim-javascript.git"
+Bundle "vim-scripts/JavaScript-syntax.git"
+Bundle "framallo/asciidoc.vim.git"
+Bundle "vim-scripts/JSON.vim.git"
+Bundle "digitaltoad/vim-jade.git"
+Bundle "kchmck/vim-coffee-script.git"
+Bundle "othree/html5.vim.git"
+Bundle "juvenn/mustache.vim.git"
+Bundle "kien/ctrlp.vim.git"
+Bundle "jiangmiao/auto-pairs.git"
+Bundle "tpope/vim-endwise.git"
+Bundle "gmarik/vundle"
+
+filetype plugin indent on
 
 " Tabs ************************************************************************
 "set sta " a <Tab> in an indent inserts 'shiftwidth' spaces
@@ -198,7 +221,7 @@ let g:no_html_toolbar = 'yes'
 " 256 colors support for console :) ******************************************
 set t_Co=256
 
-colorscheme mustang
+" colorscheme mustang
 autocmd BufWritePre * :%s/\s\+$//e
 
 set relativenumber
