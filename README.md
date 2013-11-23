@@ -5,14 +5,12 @@ Vim and terminal config files for OS X and Linux
 
 ## Getting started
 
-### Pre-requisites
-
 Make sure you have installed the following software
 
 * Vim
 * Git
 
-Here are some commands to do if haven't installed them yet:
+If you haven't installed the software described above here are some commands to help you:
 
     # Linux users
     sudo (apt-get|yum|zypper) install vim git git-core exuberant-ctags
@@ -20,7 +18,7 @@ Here are some commands to do if haven't installed them yet:
     # Mac users
     brew install git vim
 
-Clone the repository
+Clone the repository and run the install command:
 
     git clone git://github.com/TheNaoX/dotfiles.git ~/.dotfiles; \
       cd ~/.dotfiles; \
@@ -30,7 +28,7 @@ Enjoy!
 
 ## Screenshots
 
--- Add screenshots
+![Vim](http://s23.postimg.org/7fchn6wrv/Screen_Shot_2013_11_23_at_2_20_21_PM.png)
 
 ## LICENSE
 
