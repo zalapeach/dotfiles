@@ -1,6 +1,7 @@
 " -----------------------------------------------------------------------------
 " |                            VIM Settings                                   |
 " |                   (see gvimrc for gui vim settings)                       |
+"
 " |                                                                           |
 " | Some highlights:                                                          |
 " |   jj = <esc>  Very useful for keeping your hands on the home row          |
@@ -35,8 +36,7 @@ let mapleader = ","
 imap jj <Esc> " Professor VIM says '87% of users prefer jj over esc', jj abrams disagrees
 
 " load plugins on bundle folder ********************************************************
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
 " Tabs ************************************************************************
 "set sta " a <Tab> in an indent inserts 'shiftwidth' spaces
