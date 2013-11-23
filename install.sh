@@ -1,7 +1,7 @@
 git submodule init
 git submodule update
 
-echo source ~/.vim/vim-for-rails.vim >> ~/.vimrc
-echo source ~/.vim/gvim-for-rails.vim >> ~/.gvimrc
-echo source ~/.gh-dotfiles/profile >> ~/.profile
-echo source ~/.gh-dotfiles/profile >> ~/.bashrc
+echo source ~/.dotfiles/vim-for-rails.vim  >> ~/.vimrc
+echo source ~/.dotfiles/gvim-for-rails.vim >> ~/.gvimrc
+echo source ~/.dotfiles/profile            >> ~/.profile
+echo source ~/.dotfiles/profile            >> ~/.bashrc

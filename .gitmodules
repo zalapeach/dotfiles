@@ -1,0 +1,54 @@
+[submodule "bundle/nerd-commenter"]
+	path = bundle/nerd-commenter
+	url = git://github.com/vim-scripts/The-NERD-Commenter.git
+[submodule "bundle/nerd-tree"]
+	path = bundle/nerd-tree
+	url = git://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle/eruby"]
+	path = bundle/eruby
+	url = git://github.com/vim-scripts/eruby.vim.git
+[submodule "bundle/haml"]
+	path = bundle/haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "bundle/ruby"]
+	path = bundle/ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git://github.com/vim-scripts/Markdown.git
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "bundle/js-syntax"]
+	path = bundle/syntax
+	url = git://github.com/vim-scripts/JavaScript-syntax.git
+[submodule "bundle/asciidoc"]
+	path = bundle/asciidoc
+	url = git://github.com/framallo/asciidoc.vim.git
+[submodule "bundle/json"]
+	path = bundle/json
+	url = git://github.com/vim-scripts/JSON.vim.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/coffee-script"]
+	path = bundle/coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/html5.vim"]
+	path = bundle/html5
+	url = git://github.com/othree/html5.vim.git
+[submodule "bundle/mustache"]
+  path = bundle/mustache
+  url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/ctrlp"]
+  path = bundle/ctrlp
+  url = git://github.com/kien/ctrlp.vim.git
+[submodule "bundle/auto-pairs"]
+  path = bundle/auto-pairs
+  url = git://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/vim-endwise"]
+  path = bundle/vim-endwise
+  url = git://github.com/tpope/vim-endwise.git
