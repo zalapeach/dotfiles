@@ -16,7 +16,6 @@ export HISTCONTROL=ignoreboth
 # GIT ------------------------------------
 # show current branch on shell
 source ~/.dotfiles/bash_git
-source ~/.dotfiles/task_completion.sh
 
 BRANCH_COLOR="\[\033[42;30m\]"
 ARROW_BRANCH="\[\033[49;32m\]⮀"

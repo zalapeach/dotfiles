@@ -117,7 +117,6 @@ set smartcase " Ignore case when searching lowercase
 " Colors **********************************************************************
 syntax on " syntax highlighting
 
-
 " Status Line *****************************************************************
 set showcmd
 set ruler
