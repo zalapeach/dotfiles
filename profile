@@ -17,16 +17,12 @@ export HISTCONTROL=ignoreboth
 # show current branch on shell
 source ~/.dotfiles/bash_git
 
-BRANCH_COLOR="\[\033[42;30m\]"
-ARROW_BRANCH="\[\033[49;32m\]⮀"
+PROMPT_COLOR="\[\033[49;37m\]"
+DIRECTORY_COLOR="\[\033[49;34m\]"
+BRANCH_COLOR="\[\033[40;32m\]"
 BLACK="\[\033[0;38m\]"
-USER_INFO_ARROW="\[\033[47;30m\]⮀"
-DIRECTORY_COLOR="\[\033[47;30m\]"
-DIRECTORY_ARROW="\[\033[42;37m\]⮀"
-PROMPT_ARROW="\[\033[49;30m\]⮀"
-PROMPT_COLOR="\[\033[49;33m\]"
 
-export PS1="$PROMPT_COLOR\u ⮁ \h $USER_INFO_ARROW$DIRECTORY_COLOR \W $DIRECTORY_ARROW$BRANCH_COLOR ⭠ \$(parse_git_branch) $ARROW_BRANCH\n$PROMPT_COLOR\$$BLACK "
+export PS1="$PROMPT_COLOR\u:$DIRECTORY_COLOR\W$BRANCH_COLOR(⭠ \$(parse_git_branch)):\$$BLACK "
 
 alias n="nautilus . &"
 
