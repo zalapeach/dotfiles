@@ -28,7 +28,13 @@ Enjoy!
 
 ## Screenshots
 
+### Vim
+
 ![Vim](http://s23.postimg.org/7fchn6wrv/Screen_Shot_2013_11_23_at_2_20_21_PM.png)
+
+### Terminal
+
+![Terminal](http://s21.postimg.org/6m4xs27g7/Screen_Shot_2013_11_23_at_2_25_46_PM.png)
 
 ## LICENSE
 
