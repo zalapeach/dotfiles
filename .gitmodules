@@ -23,7 +23,7 @@
 	path = bundle/javascript
 	url = git://github.com/pangloss/vim-javascript.git
 [submodule "bundle/js-syntax"]
-	path = bundle/syntax
+	path = bundle/js-syntax
 	url = git://github.com/vim-scripts/JavaScript-syntax.git
 [submodule "bundle/asciidoc"]
 	path = bundle/asciidoc
