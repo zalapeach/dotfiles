@@ -22,7 +22,7 @@ DIRECTORY_COLOR="\[\033[49;34m\]"
 BRANCH_COLOR="\[\033[40;32m\]"
 BLACK="\[\033[0;38m\]"
 
-export PS1="$PROMPT_COLOR\u:$DIRECTORY_COLOR\W$BRANCH_COLOR(⭠ \$(parse_git_branch)):\$$BLACK "
+export PS1="$PROMPT_COLOR\u :: $DIRECTORY_COLOR\W $BRANCH_COLOR(⭠ \$(parse_git_branch)) \$$BLACK "
 
 alias n="nautilus . &"
 
