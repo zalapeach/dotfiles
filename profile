@@ -19,7 +19,7 @@ source ~/.dotfiles/bash_git
 
 PROMPT_COLOR="\[\033[49;37m\]"
 DIRECTORY_COLOR="\[\033[49;34m\]"
-BRANCH_COLOR="\[\033[40;32m\]"
+BRANCH_COLOR="\[\033[49;32m\]"
 BLACK="\[\033[0;38m\]"
 
 export PS1="$PROMPT_COLOR\u :: $DIRECTORY_COLOR\W $BRANCH_COLOR(⭠ \$(parse_git_branch)) \$$BLACK "
