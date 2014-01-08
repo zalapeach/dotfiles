@@ -38,3 +38,5 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 alias b="bundle exec"
 
 alias v="gvim"
+
+bind -f ~/.dotfiles/history_search
