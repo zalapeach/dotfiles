@@ -3,22 +3,11 @@
 " |                   (see gvimrc for gui vim settings)                       |
 " |                                                                           |
 " | Some highlights:                                                          |
-" |   jj = <esc>  Very useful for keeping your hands on the home row          |
 " |   ,n = toggle NERDTree off and on                                         |
 " |   ,N = find current file in  NERDTree                                     |
-" |                                                                           |
-" |   ,FC = fuzzy find coverage files (or ,f)                                 |
-" |   ,FF = fuzzy find files                                                  |
-" |   ,FD = fuzzy find directory                                              |
-" |   ,FL = fuzzy find in lines                                               |
-" |   ,FB = fuzzy find buffers                                                |
-" |   ,FR = fuzzy find refresh files                                          |
 " |   ,p = go to previous file                                                |
-" |   ,t = toogle taglist                                                     |
-" |                                                                           |
 " |   ,h = new horizontal window                                              |
 " |   ,v = new vertical window                                                |
-" |                                                                           |
 " |   ,i = toggle invisibles                                                  |
 " |                                                                           |
 " |   enter and shift-enter = adds a new line after/before the current line   |
@@ -32,7 +21,6 @@
 
 set nocompatible
 let mapleader = ","
-imap jj <Esc> " Professor VIM says '87% of users prefer jj over esc', jj abrams disagrees
 
 " load plugins on bundle folder ********************************************************
 filetype off                  " required!
