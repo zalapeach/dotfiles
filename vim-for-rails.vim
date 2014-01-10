@@ -215,3 +215,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 set relativenumber
 
 colorscheme mustang
+
+" Enable go lang syntax highlightning *************************************
+filetype off
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
