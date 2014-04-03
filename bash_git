@@ -1,29 +1,22 @@
 function parse_git_dirty {
   git diff --quiet HEAD &>/dev/null
-    [[ $? == 1 ]] && echo " ⚡"
+    [[ $? == 1 ]] && echo "‼️"
 }
 if [ -n  __git_ps1 ]; then
 function parse_git_branch {
   local branch=$(__git_ps1 "%s")
-    [[ $branch ]] && echo "$branch$(parse_git_dirty)"
+    [[ $branch ]] && echo " ⭠ $branch$(parse_git_dirty)"
 }
 fi
 
 source ~/.dotfiles/bash_git_completion
 
-alias g='git'
 alias gs='git status'
-alias gc='git commit'
-alias gca='git commit -a'
-alias ga='git add'
 alias gco='git checkout '
 alias gb='git branch'
-alias gm='git merge'
 alias gd="git diff"
 alias gg="git grep --color -n"
-alias ggi="git grep -ni"
 alias gk="gitk 2>/dev/null --all &"
-
 
 complete -o default -o nospace -F _git_branch gb
 complete -o default -o nospace -F _git_checkout gco
