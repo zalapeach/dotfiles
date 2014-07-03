@@ -215,7 +215,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 set relativenumber
 
-colorscheme mustang
+colorscheme jellybeans
 
 " Enable go lang syntax highlightning *************************************
 filetype off
