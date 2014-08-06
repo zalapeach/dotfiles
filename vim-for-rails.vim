@@ -48,6 +48,7 @@ Bundle "tpope/vim-endwise.git"
 Bundle "gmarik/vundle"
 Bundle "flazz/vim-colorschemes.git"
 Bundle "slim-template/vim-slim"
+Bundle "fatih/vim-go"
 
 filetype plugin indent on
 
@@ -218,8 +219,4 @@ set relativenumber
 colorscheme jellybeans
 
 " Enable go lang syntax highlightning *************************************
-filetype off
-filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax on
+let g:go_disable_autoinstall = 1
