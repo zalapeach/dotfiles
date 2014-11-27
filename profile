@@ -21,7 +21,7 @@ DIRECTORY_COLOR="\[\033[1;36m\]"
 BRANCH_COLOR="\[\033[1;33m\]"
 BLACK="\[\033[0;38m\]"
 
-export PS1="$DIRECTORY_COLOR\W $BRANCH_COLOR\$(parse_git_branch)⌘ $BLACK "
+export PS1="$DIRECTORY_COLOR\W $BRANCH_COLOR\$(parse_git_branch)% $BLACK"
 
 export PATH=$PATH:~/.dotfiles/bin
 

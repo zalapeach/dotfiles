@@ -21,6 +21,7 @@
 
 set nocompatible
 let mapleader = ","
+imap jj <Esc>
 
 " load plugins on bundle folder ********************************************************
 filetype off                  " required!
@@ -221,3 +222,5 @@ colorscheme jellybeans
 
 " Enable go lang syntax highlightning *************************************
 let g:go_disable_autoinstall = 1
+
+set re=1
