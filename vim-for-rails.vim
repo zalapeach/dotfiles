@@ -26,6 +26,7 @@ imap jj <Esc>
 " load plugins on bundle folder ********************************************************
 filetype off                  " required!
 set rtp+=~/.dotfiles/bundle/vundle/
+set rtp+=~/.dotfiles/bundle/grb256/
 call vundle#rc("~/.dotfiles/bundle")
 
 Bundle "vim-scripts/The-NERD-Commenter.git"
@@ -35,8 +36,6 @@ Bundle "vim-scripts/eruby.vim.git"
 Bundle "tpope/vim-haml.git"
 Bundle "vim-ruby/vim-ruby.git"
 Bundle "vim-scripts/Markdown.git"
-Bundle "pangloss/vim-javascript.git"
-Bundle "vim-scripts/JavaScript-syntax.git"
 Bundle "framallo/asciidoc.vim.git"
 Bundle "vim-scripts/JSON.vim.git"
 Bundle "digitaltoad/vim-jade.git"
@@ -50,6 +49,9 @@ Bundle "gmarik/vundle"
 Bundle "flazz/vim-colorschemes.git"
 Bundle "slim-template/vim-slim"
 Bundle "fatih/vim-go"
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'pangloss/vim-javascript'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 filetype plugin indent on
 
@@ -209,18 +211,13 @@ au! BufRead,BufNewFile *.json set errorformat=%E%f:\ %m\ at\ line\ %l,%-G%.%#
 " html ***********************************************************************
 let g:no_html_toolbar = 'yes'
 
-" 256 colors support for console :) ******************************************
-set t_Co=256
-
-" colorscheme mustang
-autocmd BufWritePre * :%s/\s\+$//e
-
-set relativenumber
-set number
-
-colorscheme jellybeans
-
 " Enable go lang syntax highlightning *************************************
 let g:go_disable_autoinstall = 1
 
+" 256 colors support for console :) ******************************************
+set t_Co=256
+autocmd BufWritePre * :%s/\s\+$//e
+set relativenumber
+set number
 set re=1
+colorscheme grb256
