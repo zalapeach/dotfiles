@@ -26,7 +26,6 @@ imap jj <Esc>
 " load plugins on bundle folder ********************************************************
 filetype off                  " required!
 set rtp+=~/.dotfiles/bundle/vundle/
-set rtp+=~/.dotfiles/bundle/grb256/
 call vundle#rc("~/.dotfiles/bundle")
 
 Bundle "vim-scripts/The-NERD-Commenter.git"
@@ -220,4 +219,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 set relativenumber
 set number
 set re=1
-colorscheme grb256
+colorscheme wombat256
