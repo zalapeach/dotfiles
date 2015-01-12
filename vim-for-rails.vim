@@ -51,6 +51,7 @@ Bundle "fatih/vim-go"
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'dsolstad/vim-wombat256i'
 
 filetype plugin indent on
 
@@ -219,4 +220,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 set relativenumber
 set number
 set re=1
-colorscheme wombat256
+colorscheme wombat256i

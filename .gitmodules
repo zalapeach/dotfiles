@@ -67,3 +67,6 @@
 [submodule "bundle/vim-go"]
   path = bundle/vim-go
   url = git://github.com/fatih/vim-go.git
+[submodule "bundle/vim-wombat256i"]
+  path = bundle/vim-wombat256i
+  url = git://github.com/dsolstad/vim-wombat256i.git
