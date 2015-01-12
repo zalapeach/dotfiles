@@ -17,11 +17,12 @@ export HISTCONTROL=ignoreboth
 # show current branch on shell
 source ~/.dotfiles/bash_git
 
-DIRECTORY_COLOR="\[\033[1;36m\]"
-BRANCH_COLOR="\[\033[1;33m\]"
-BLACK="\[\033[0;38m\]"
+DIRECTORY_COLOR="\[\033[1;33m\]"
+USER_COLOR="\[\033[1;36m\]"
+BRANCH_COLOR="\[\033[1;31m\]"
+BLACK="\[\033[0;1m\]"
 
-export PS1="$DIRECTORY_COLOR\W $BRANCH_COLOR\$(parse_git_branch)% $BLACK"
+export PS1="$USER_COLOR\u :: $DIRECTORY_COLOR\W$BRANCH_COLOR\$(parse_git_branch) $DIRECTORY_COLOR$ $BLACK"
 
 export PATH=$PATH:~/.dotfiles/bin
 
@@ -38,8 +39,4 @@ alias v="gvim"
 
 bind -f ~/.dotfiles/history_search
 
-if [ -e /usr/share/terminfo/x/xterm-256color  ]; then
-  export TERM='xterm-256color'
-else
-  export TERM='xterm-color'
-fi
+export TERM=xterm-256color
