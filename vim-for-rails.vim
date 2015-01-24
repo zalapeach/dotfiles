@@ -128,7 +128,7 @@ set backupdir=~/.dotfiles/tmp/backup
 set directory=~/.dotfiles/tmp/swap
 
 " File Stuff ******************************************************************
-filetype plugin indent on
+filetype plugin on
 
 " Insert New Line *************************************************************
 map <S-Enter> O<ESC> " awesome, inserts new line without going into insert mode
