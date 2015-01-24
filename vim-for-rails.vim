@@ -219,5 +219,4 @@ set t_Co=256
 autocmd BufWritePre * :%s/\s\+$//e
 set relativenumber
 set number
-set re=1
 colorscheme wombat256i
