@@ -29,4 +29,4 @@ set gtl=%t gtt=%F
 
 let g:screenDimensions = { '1920,1080': [ 145, 77 ], '1280,800': [ 207,60 ], 'default' :[50,50] }
 
-colorscheme mustang
+colorscheme wombat256
