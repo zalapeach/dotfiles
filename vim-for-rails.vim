@@ -52,6 +52,7 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'dsolstad/vim-wombat256i'
+Bundle 'wavded/vim-stylus'
 
 filetype plugin indent on
 
@@ -217,6 +218,6 @@ let g:go_disable_autoinstall = 1
 " 256 colors support for console :) ******************************************
 set t_Co=256
 autocmd BufWritePre * :%s/\s\+$//e
-set relativenumber
 set number
 colorscheme wombat256i
+set re=1
