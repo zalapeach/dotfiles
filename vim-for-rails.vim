@@ -53,6 +53,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'dsolstad/vim-wombat256i'
 Bundle 'wavded/vim-stylus'
+Bundle 'morhetz/gruvbox'
 
 filetype plugin indent on
 
@@ -219,4 +220,5 @@ let g:go_disable_autoinstall = 1
 set t_Co=256
 autocmd BufWritePre * :%s/\s\+$//e
 set number
-colorscheme wombat256i
+colorscheme gruvbox
+set bg=dark
