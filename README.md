@@ -28,13 +28,10 @@ Enjoy!
 
 ## Screenshots
 
-### Vim
+### NeoVim (or Vim) + Terminal emulator
 
-![Vim](http://s23.postimg.org/7fchn6wrv/Screen_Shot_2013_11_23_at_2_20_21_PM.png)
+![Vim](https://s14.postimg.org/bg6ti7upd/Screen_Shot_2016_08_22_at_11_58_57_AM.png)
 
-### Terminal
-
-![Terminal](http://s1.postimg.org/munxfu19r/Screen_Shot_2014_04_03_at_5_37_40_PM.png)
 
 ## LICENSE
 
