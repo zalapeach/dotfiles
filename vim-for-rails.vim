@@ -222,3 +222,5 @@ autocmd BufWritePre * :%s/\s\+$//e
 set number
 colorscheme gruvbox
 set bg=dark
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|vcr_cassettes\|uploads\|vendor'
