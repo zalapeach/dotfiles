@@ -54,6 +54,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'dsolstad/vim-wombat256i'
 Bundle 'wavded/vim-stylus'
 Bundle 'morhetz/gruvbox'
+Bundle 'elixir-lang/vim-elixir'
 
 filetype plugin indent on
 
