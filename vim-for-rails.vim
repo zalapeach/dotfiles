@@ -55,6 +55,8 @@ Bundle 'dsolstad/vim-wombat256i'
 Bundle 'wavded/vim-stylus'
 Bundle 'morhetz/gruvbox'
 Bundle 'elixir-lang/vim-elixir'
+Bundle 'digitaltad/vim-pug.git'
+Bundle 'ekalinin/Dockerile.vim'
 
 filetype plugin indent on
 
