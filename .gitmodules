@@ -79,9 +79,12 @@
 [submodule "bundle/vim-elixir"]
   path = bundle/vim-elixir
   url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "vim-pug"]
+	path = vim-pug
+	url = git://github.com/digitaltoad/vim-pug.git
 [submodule "bundle/vim-pug"]
-  path = bundle/vim-pug
-  url = git://github.com/digitaltoad/vim-pug.git
+	path = bundle/vim-pug
+	url = git://github.com/digitaltoad/vim-pug.git
 [submodule "bundle/Dockerfile.vim"]
-  path= bundle/Dockerfile.vim
-  url = git://github.com/ekalinin/Dockerfile.vim.git
+	path = bundle/Dockerfile.vim
+	url = git://github.com/ekalinin/Dockerfile.vim.git
