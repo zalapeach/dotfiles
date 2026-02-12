@@ -48,16 +48,16 @@ Bundle "gmarik/vundle"
 Bundle "flazz/vim-colorschemes.git"
 Bundle "slim-template/vim-slim"
 Bundle "fatih/vim-go"
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'pangloss/vim-javascript'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'dsolstad/vim-wombat256i'
-Bundle 'wavded/vim-stylus'
-Bundle 'morhetz/gruvbox'
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'digitaltad/vim-pug.git'
-Bundle 'ekalinin/Dockerfile.vim'
-Bundle 'hashivim/vim-terraform.git'
+Bundle "jelera/vim-javascript-syntax"
+Bundle "pangloss/vim-javascript"
+Bundle "nathanaelkane/vim-indent-guides"
+Bundle "dsolstad/vim-wombat256i"
+Bundle "wavded/vim-stylus"
+Bundle "morhetz/gruvbox"
+Bundle "elixir-lang/vim-elixir"
+Bundle "digitaltad/vim-pug.git"
+Bundle "ekalinin/Dockerfile.vim"
+Bundle "hashivim/vim-terraform.git"
 
 filetype plugin indent on
 
