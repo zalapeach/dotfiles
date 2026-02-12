@@ -56,7 +56,8 @@ Bundle 'wavded/vim-stylus'
 Bundle 'morhetz/gruvbox'
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'digitaltad/vim-pug.git'
-Bundle 'ekalinin/Dockerile.vim'
+Bundle 'ekalinin/Dockerfile.vim'
+Bundle 'hashivim/vim-terraform.git'
 
 filetype plugin indent on
 
