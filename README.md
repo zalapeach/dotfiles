@@ -20,7 +20,7 @@ If you haven't installed the software described above here are some commands to 
 
 Clone the repository and run the install command:
 
-    git clone git://github.com/zalapeach/dotfiles.git ~/.dotfiles; \
+    git clone git@github.com:zalapeach/dotfiles.git ~/.dotfiles; \
       cd ~/.dotfiles; \
       ./install.sh
 
